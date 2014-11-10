@@ -3,11 +3,13 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    border-bottom: 1px solid $background-color-light;
+    min-height: $header-height;
+    width: 100%;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    background-color: $background-color;
 }
 
 .site-title {
@@ -19,7 +21,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $background-color-light;
     }
 }
 
@@ -163,6 +165,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    padding-top: $header-height + $spacing-unit;
 }
 
 .page-heading {

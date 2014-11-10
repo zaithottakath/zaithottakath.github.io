@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Backend Ruby on Rails Devloper at [Reveal Chat](http://www.revealchat.com)
-
-[Github](http://www.github.com/{{site.generic_username}})
-
-[LinkedIn](http://www.linkedin.com/in/{{site.linkedin_username}})
+Ruby on Rails Developer at [Reveal Chat](http://www.revealchat.com)
