@@ -42,4 +42,4 @@ puts file_contents
 continue = prompt("Write to file? (y/n): ")
 # Customize the full file and path for your own needs
 full_file_and_path = "./_posts/#{file_name}" 
-File.write(, file_contents) if continue[0] == "y"
+File.write(full_file_and_path, file_contents) if continue[0] == "y"
